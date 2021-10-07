@@ -47,8 +47,9 @@ function fadeIn() {
 }
 function fadeIn1() {
     setTimeout(function() {
-        document.querySelector('.right').innerHTML = "<div class='projetos letter'><a href='https://diogobollineli.github.io/Jogo-Helicoptero.github.io/' target='_blank'><h1 class='sobre'>Jogo de Resgate</h1></a> <a href='https://github.com/DiogoBollineli/Jogo-Helicoptero.github.io'target='_blank'> </a>  <a href='https://diogobollineli.github.io/Gameflix.github.io/' target='_blank'><h1 class='sobre game'>Gameflix</h1></a> <a href='' target='_blank'><h1 class='sobre'>Jogo da Memoria</h1> </a>  </div> " ;
+        document.querySelector('.right').innerHTML = "<div class='projetos letter info'><a href='https://diogobollineli.github.io/Jogo-Helicoptero.github.io/' target='_blank'><h1 class='sobre'>Jogo de Resgate</h1></a><a href='https://exultant-toes.surge.sh' target='_blank'><h1 class='sobre game'>Gameflix</h1></a> <a href='https://pokemon-memoria.surge.sh' target='_blank'><h1 class='sobre'>Jogo da Memoria</h1> </a>  </div> " ;
     }, 1000);
+    mudaCor();
 }
 function fadeIn2() {
     setTimeout(function() {
