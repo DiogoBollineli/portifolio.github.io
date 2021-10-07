@@ -1,0 +1,205 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    display: flex;
+}
+.icons a{
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100vh;
+    background-color: #F1C40F;
+    align-items: center;
+    padding-top:13%;
+    font-size: 20px;
+}
+.right{
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+}
+.foto{
+    border:black solid 1px;
+    border-radius: 50%;
+}
+.texto{
+    padding-bottom: 20px;
+}
+#linkedin{
+    padding: 0 20px 0 20px
+}
+.icons{
+    padding-top: 40px;
+}
+#facebook:hover{
+    color: darkgray;
+    cursor: pointer;
+}
+#github:hover{
+    color: darkgray;
+    cursor: pointer;
+}
+#linkedin:hover{
+    color: darkgray;
+    cursor: pointer;
+}
+.sobre{
+    transition: 0.5s;
+    transform: translateX(0) scale(1);
+}
+.sobre:hover,:focus{
+    transform: translateX(10px) scale(1.1);
+    color: darkorange;
+    cursor: pointer;
+    
+}
+.projetos{
+  display: flex;
+}
+.game{
+  padding: 0 110px 0 110px;
+}
+.voltar{
+    display: flex;
+    color: black;
+    position: absolute;
+    left: 80%;
+    padding-top: 40%;
+}
+.work{
+    transition: 0.5s;
+    transform: translateX(0) scale(1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.work:hover,:focus{
+    transform: translateX(10px) scale(1.1);
+    color: darkorange;
+    cursor: pointer;
+}
+.infor{
+  display: flex;
+}
+.meio{
+  padding-left: 1000px;
+}
+.cont{
+    transition: 0.5s;
+    transform: translateX(0) scale(1);
+}
+.cont:hover,:focus{
+    transform: translateX(10px) scale(1.1);
+    color: darkorange;
+    cursor: pointer;
+}
+.board{
+    display: flex;
+    padding-top: 40px;
+}
+.trab{
+    padding-right: 10px;
+}
+.con{
+    padding-left: 10px;
+}
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+.fadeIn {
+        -webkit-animation: fadeIn 3s ease-in-out;
+        -moz-animation: fadeIn 3s ease-in-out;
+        -o-animation: fadeIn 3s ease-in-out;
+        animation: fadeIn 3s ease-in-out;
+}
+.letter{
+    padding-left: 10%;
+    padding-right: 10%;
+	-webkit-animation: letter 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: letter 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes letter {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes letter {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  .color-change-2x {
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+            animation: color-change-2x 2s linear infinite alternate both;
+  }
+  @-webkit-keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }

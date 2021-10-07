@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/bb82b8ec36.js" crossorigin="anonymous" defer></script>
+    <title>ALal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="voltar"><i class="fas fa-chevron-left"></i><p class="sobre" onclick="removeSobre(document.querySelector('.info'),1000);">Voltar</p></div>
+        <div class="left">
+            <div class="texto">
+                <h2>Diogo</h2>
+                <h2>Bollineli</h2>
+            </div>
+            <img src=""  class="foto" alt="">
+            <div class="icons">
+                <a href="https://github.com/DiogoBollineli" target="_blank"><i class="fab fa-github fa-2x" id="github"></i></a>
+                <a href="https://www.linkedin.com/in/diogo-bolineli-998966210/" target="_blank"><i class="fab fa-linkedin fa-2x" id="linkedin"></i></a>
+                <a href="https://www.facebook.com/diogo.bolinelli/" target="_blank"><i class="fab fa-facebook fa-2x" id="facebook"></i></a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="list">
+                <h1 class="sobre" onclick="removeFadeOut(document.querySelector('.list'), 1000);">Quem sou eu?</h1>
+                <h1 class="work" onclick="removeFadeOut1(document.querySelector('.list'), 1000);">Projetos</h1>
+                <h1 class="cont" onclick="removeFadeOut2(document.querySelector('.list'), 1000);">Contato</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
